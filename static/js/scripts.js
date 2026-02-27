@@ -48,13 +48,35 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
     // Marked
-    marked.use({ mangle: false, headerIds: false })
+    marked.use({ mangle: false })
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
+                const html = marked.parse(markdown, {
+                    headerIds: true,
+                    headerPrefix: name + '-',
+                });
+                const container = document.getElementById(name + '-md');
+                container.innerHTML = html;
+
+                const headings = container.querySelectorAll('h2, h3, h4');
+                if (headings.length) {
+                    const toc = document.createElement('nav');
+                    toc.className = 'section-toc';
+                    const ul = document.createElement('ul');
+                    headings.forEach(h => {
+                        if (!h.id) return;
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = '#' + h.id;
+                        a.textContent = h.textContent;
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                    });
+                    toc.appendChild(ul);
+                    container.parentElement.insertBefore(toc, container);
+                }
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
