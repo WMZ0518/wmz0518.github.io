@@ -16,11 +16,7 @@
 
 .top-section {
     position: relative;
-    padding: 6rem 0;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 40vh;
+    padding: 0;
 }
 
 .top-section h2 {
@@ -28,8 +24,11 @@
 }
 
 .top-section .top-section-content {
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
 }
 
 .top-section:before {
@@ -40,6 +39,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 section header h2{
@@ -79,21 +79,11 @@ section .main-body h3:first-child {
 }
 
 .top-bg {
-    background-position: center;
-    background-size: fill;
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
-.top-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
 
 
 #avatar {

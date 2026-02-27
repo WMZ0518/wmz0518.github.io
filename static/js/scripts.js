@@ -51,7 +51,12 @@ window.addEventListener('DOMContentLoaded', event => {
     marked.use({ mangle: false })
     const navList = document.querySelector('#navbarResponsive .navbar-nav');
     const navItems = [];
-    const cleanNavText = (text) => text.replace(/^[^\p{L}\p{N}]+/u, '').trim();
+    let sectionsLoaded = 0;
+    const cleanNavText = (text) => text
+        .replace(/[\p{Extended_Pictographic}]/gu, '')
+        .replace(/[\uFE0F\u200D]/g, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
 
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
@@ -62,6 +67,8 @@ window.addEventListener('DOMContentLoaded', event => {
                     headerPrefix: name + '-',
                 });
                 const container = document.getElementById(name + '-md');
+                const existingToc = container.parentElement.querySelectorAll('.section-toc');
+                existingToc.forEach(node => node.remove());
                 container.innerHTML = html;
 
                 const headings = container.querySelectorAll('h3');
@@ -74,7 +81,10 @@ window.addEventListener('DOMContentLoaded', event => {
                 MathJax.typeset();
             })
             .then(() => {
+                sectionsLoaded += 1;
+                if (sectionsLoaded !== section_names.length) return;
                 if (!navList || !navItems.length) return;
+
                 navItems
                     .sort((a, b) => (a.idx - b.idx))
                     .forEach(item => {

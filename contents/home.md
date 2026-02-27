@@ -16,7 +16,7 @@ Currently, I am actively seeking **Research Internship**. If you are interested 
 ###### 🙏 I also hope there will be some good news in the near future plz!!!
 - **[2026.02]** 🎉 Welcome to my **personal homepage**! This is my first time building one, and I will keep refining it to make it more polished！
 - **[2026.01]** 🌟 Start my first internship at **Synapath AI**!
-- **[2025.12]** 📝 Achieve a perfect GPA (4.00/4.00) for three consecutive semesters！
+- **[2025.12]** 📝 Achieve a **perfect GPA (4.00/4.00)** for three consecutive semesters！
 - **[2025.10]** 📜 Honored to receive the **National Scholarship** for the second consecutive year！
 - **[2025.09]** 🎓 I have been pre-admitted to **Tsinghua University** for graduate studies!🎉🎉🎉
 - **[2025.07]** 🤖 We achieved **1st Place** on the Leaderboard of the **Embodied AI Competition** at Tsinghua SIGS!
@@ -31,15 +31,15 @@ Currently, I am actively seeking **Research Internship**. If you are interested 
     - **Gaokao Score**: 682 / 750
 
 ### 🔍 Research Interests
-- 🤖 **Embodied AI**: 3D scene reconstruction and robotic task reasoning.
-- 👁️ **Computer Vision**: Visible-Infrared Person Re-ID and Dynamic Facial Expression Recognition.
-- 🧠 **Multi-modal Learning**: Feature alignment and bridging modality gaps.
+- **Embodied AI**: 3D scene reconstruction and robotic task reasoning.
+- **Computer Vision**: Visible-Infrared Person Re-ID and Dynamic Facial Expression Recognition.
+- **Multi-modal Learning**: Feature alignment and bridging modality gaps.
 
 ### 🛠️ Professional Skills
-- Programming: C, C++, Python.
-- Tools: VS Code, PyCharm, MATLAB.
-- Frameworks: PyTorch.
+- **Programming**: C, C++, Python.
+- **Tools**: VS Code, PyCharm, MATLAB.
+- **Frameworks**: PyTorch，TensorFlow.
 
 ### 🎯 Interests & Hobbies
 - Basketball enthusiast (Captain of the department men's basketball team).
-- Music, fitness, and movies.
+- Fitness, music, and movies.
