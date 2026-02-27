@@ -51,6 +51,7 @@ window.addEventListener('DOMContentLoaded', event => {
     marked.use({ mangle: false })
     const navList = document.querySelector('#navbarResponsive .navbar-nav');
     const navItems = [];
+    const cleanNavText = (text) => text.replace(/^[^\p{L}\p{N}]+/u, '').trim();
 
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
@@ -63,27 +64,11 @@ window.addEventListener('DOMContentLoaded', event => {
                 const container = document.getElementById(name + '-md');
                 container.innerHTML = html;
 
-                const headings = container.querySelectorAll('h2, h3, h4');
-                if (headings.length) {
-                    const toc = document.createElement('nav');
-                    toc.className = 'section-toc';
-                    const ul = document.createElement('ul');
-                    headings.forEach(h => {
-                        if (!h.id) return;
-                        const li = document.createElement('li');
-                        const a = document.createElement('a');
-                        a.href = '#' + h.id;
-                        a.textContent = h.textContent;
-                        li.appendChild(a);
-                        ul.appendChild(li);
-
-                        if (h.tagName.toLowerCase() === 'h3') {
-                            navItems.push({ idx, id: h.id, text: h.textContent });
-                        }
-                    });
-                    toc.appendChild(ul);
-                    container.parentElement.insertBefore(toc, container);
-                }
+                const headings = container.querySelectorAll('h3');
+                headings.forEach(h => {
+                    if (!h.id) return;
+                    navItems.push({ idx, id: h.id, text: cleanNavText(h.textContent) });
+                });
             }).then(() => {
                 // MathJax
                 MathJax.typeset();

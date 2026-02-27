@@ -16,10 +16,11 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 6rem 0;
     background-position: center;
-    background-size: cover;
-    height: 25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 40vh;
 }
 
 .top-section h2 {
@@ -54,31 +55,12 @@ section .main-body{
     line-height: 2.4rem;
 }
 
-.section-toc {
-    margin: 0.5rem 0 1.5rem;
-    font-size: 1rem;
+section .main-body h3 {
+    margin-top: 2rem;
 }
 
-.section-toc ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 1rem;
-}
-
-.section-toc li {
-    margin: 0;
-}
-
-.section-toc a {
-    color: var(--h-title-color);
-    text-decoration: none;
-}
-
-.section-toc a:hover {
-    text-decoration: underline;
+section .main-body h3:first-child {
+    margin-top: 0;
 }
 
 .bg-gradient-primary-to-secondary-light {
@@ -134,4 +116,3 @@ section .main-body{
         margin: 0;
     }
 }
-
