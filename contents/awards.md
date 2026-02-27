@@ -1,12 +1,9 @@
+### 🏆 Honors and Awards
 
-- Outstanding Graduate Award (CUMT), 2025.
-
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
-
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
-
-- Outstanding Undergraduate Thesis Award (Jiangsu, China), 2022.
-
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+- **National Scholarship** (Ministry of Education, China), 2024 & 2025.
+- **1st Place (Leaderboard)**, Embodied AI Challenge, Tsinghua SIGS, 2025.
+- **Outstanding Student / Student Leader**, Fudan University, 2023 & 2024 & 2025.
+- **Outstanding Youth League Member**, Fudan University, 2023 & 2024 & 2025.
+- **Grand Prize**, English Public Speaking Contest (Top 5%), 2024.
+- **Winner Award**, 1st National University Career Planning Contest (Shanghai Division), 2024.
+- **Third Prize**, Contemporary Undergraduate Mathematical Contest in Modeling (Shanghai Division), 2024.
