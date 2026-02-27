@@ -4,7 +4,7 @@
 [[Email]](mailto:wangmz22@m.fudan.edu.cn) / [[GitHub]](https://github.com/WMZ0518) / [[Google Scholar]](https://scholar.google.com/citations?user=3-XN5cUAAAAJ&hl=zh-CN) 
 
 
-📌**Location**: Beijing (Hometown) | Shanghai (Fudan University) 
+**🏠 Location**: Beijing (Hometown) | Shanghai (Fudan University) 
 
 
 ### 🙌 Introduction
