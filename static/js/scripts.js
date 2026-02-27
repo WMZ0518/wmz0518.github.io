@@ -49,6 +49,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Marked
     marked.use({ mangle: false })
+    const navList = document.querySelector('#navbarResponsive .navbar-nav');
+    const navItems = [];
+
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())
@@ -73,6 +76,10 @@ window.addEventListener('DOMContentLoaded', event => {
                         a.textContent = h.textContent;
                         li.appendChild(a);
                         ul.appendChild(li);
+
+                        if (h.tagName.toLowerCase() === 'h3') {
+                            navItems.push({ idx, id: h.id, text: h.textContent });
+                        }
                     });
                     toc.appendChild(ul);
                     container.parentElement.insertBefore(toc, container);
@@ -80,6 +87,22 @@ window.addEventListener('DOMContentLoaded', event => {
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
+            })
+            .then(() => {
+                if (!navList || !navItems.length) return;
+                navItems
+                    .sort((a, b) => (a.idx - b.idx))
+                    .forEach(item => {
+                        const li = document.createElement('li');
+                        li.className = 'nav-item';
+                        const a = document.createElement('a');
+                        a.className = 'nav-link me-lg-3';
+                        a.href = '#' + item.id;
+                        a.textContent = item.text;
+                        li.appendChild(a);
+                        navList.appendChild(li);
+                    });
+                navItems.length = 0;
             })
             .catch(error => console.log(error));
     })
