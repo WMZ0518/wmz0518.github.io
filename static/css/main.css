@@ -10,8 +10,8 @@
     z-index: 10000;
 }
 
-#mainNav .nav-link {
-    font-size: 1.8rem;
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
 }
 
 .bg-bottom {
@@ -59,6 +59,10 @@ section .main-body{
     line-height: 2.4rem;
 }
 
+.section-toc {
+    display: none;
+}
+
 section .main-body h3 {
     margin-top: 2rem;
 }
@@ -86,6 +90,7 @@ section .main-body h3:first-child {
     display: block;
     width: 100%;
     height: auto;
+    object-fit: contain;
 }
 
 

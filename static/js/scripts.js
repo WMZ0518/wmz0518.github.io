@@ -53,7 +53,8 @@ window.addEventListener('DOMContentLoaded', event => {
     const navItems = [];
     let sectionsLoaded = 0;
     const cleanNavText = (text) => text
-        .replace(/[\p{Extended_Pictographic}]/gu, '')
+        .replace(/[\u{1F000}-\u{1FAFF}]/gu, '')
+        .replace(/[\u{2600}-\u{27BF}]/gu, '')
         .replace(/[\uFE0F\u200D]/g, '')
         .replace(/\s{2,}/g, ' ')
         .trim();
