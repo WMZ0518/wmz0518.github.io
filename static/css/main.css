@@ -10,6 +10,10 @@
     z-index: 10000;
 }
 
+#mainNav .nav-link {
+    font-size: 1.1rem;
+}
+
 .bg-bottom {
     background-color: var(--h-title-color);
 }
