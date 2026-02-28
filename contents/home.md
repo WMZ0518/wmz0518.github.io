@@ -1,5 +1,5 @@
 # Mengzhe Wang (王孟哲)
-**Fudan University | Computer Science & Embodied AI Researcher**
+**🎓Fudan University |💡Computer Science & Embodied AI Researcher |🏃Basketball & Fitness & Music.** 
 
 [[Email]](mailto:wangmz22@m.fudan.edu.cn) / [[GitHub]](https://github.com/WMZ0518) / [[Google Scholar]](https://scholar.google.com/citations?user=3-XN5cUAAAAJ&hl=zh-CN) 
 
@@ -35,11 +35,4 @@ Currently, I am actively seeking **Research Internship**. If you are interested 
 - **Computer Vision**: Visible-Infrared Person Re-ID and Dynamic Facial Expression Recognition.
 - **Multi-modal Learning**: Feature alignment and bridging modality gaps.
 
-### 🛠️ Professional Skills
-- **Programming**: C, C++, Python.
-- **Tools**: VS Code, PyCharm, MATLAB.
-- **Frameworks**: PyTorch，TensorFlow.
 
-### 🎯 Interests & Hobbies
-- Basketball enthusiast (Captain of the department men's basketball team).
-- Fitness, music, and movies.

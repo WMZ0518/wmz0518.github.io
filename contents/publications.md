@@ -5,4 +5,4 @@
 
 - **Fine-Grained Landmark Integration and Efficient Fine-Tuning for Enhanced CLIP-Based Dynamic Facial Expression Recognition** *(Second Author)* [[Code]](https://github.com/WMZ0518/Facial-Expression-Recognition.git)
 
-- **3D Visual Reconstruction from Monocular Camera Images** *(First Author) *[[Code]](https://github.com/WMZ0518/3D-Visual-Reconstruction.git)
+- **3D Visual Reconstruction from Monocular Camera Images** *(First Author)* [[Code]](https://github.com/WMZ0518/3D-Visual-Reconstruction.git)
