@@ -12,7 +12,7 @@ I am an undergraduate student majoring in **Intelligent Science and Technology**
 Currently, I am actively seeking **Research Internship**. If you are interested in my work, please contact me at [wangmz22@m.fudan.edu.cn](mailto:wangmz22@m.fudan.edu.cn)!
 
 ### 📢 News 
-###### 🙏 I also hope there will be some good news in the near future plz!!!
+#### 🙏 I also hope there will be some good news in the near future plz!!!
 - **[2026.02]** 🎉 Welcome to my **personal homepage**! This is my first time building one, and I will keep refining it to make it more polished！
 - **[2026.01]** 🌟 Start my first internship at **Synapath AI**!
 - **[2025.12]** 📝 Achieve a **perfect GPA (4.00/4.00)** for three consecutive semesters！
