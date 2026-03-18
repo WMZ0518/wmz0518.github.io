@@ -24,7 +24,7 @@ Currently, I am actively seeking **Research Internship**. If you are interested 
 
 ### 📖 Educations
 - **[2022.09 - 2026.06]** Undergraduate Student in **Intelligent Science and Technology**, **Fudan University** 
-    - **GPA**: 3.67/4.00 | **Ranking**: 5/103 (Academic), 1/35 (Comprehensive) 
+    - **GPA**: 3.66/4.00 | **Ranking**: 5/103 (Academic), 1/35 (Comprehensive) 
     - **Honors**: National Scholarship (2024, 2025)
 - **[2019.09 - 2022.06]** Student in **Science Experimental Class**, **Beijing No.4 High School(BHSF)**
     - **Gaokao Score**: 682 / 750
